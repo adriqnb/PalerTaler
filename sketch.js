@@ -210,7 +210,7 @@ function displayCurrentPage() {
   let topMargin = leftMargin;
   let contentWidth = windowWidth - leftMargin * 2;
   let contentMargin = 50;
-  let pageTextHeight = windowWidth * 0.4;
+  let pageTextHeight = windowWidth * 0.2;
   let choicesTextHeight = 125;
   let choicesTextY = topMargin + pageTextHeight + contentMargin;
   let pageNumX = windowWidth / 2;
