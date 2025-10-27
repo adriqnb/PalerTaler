@@ -19,99 +19,99 @@ function preload() {
   // ********************
 
   let tempI = 0;
-  pageTexts[tempI] = 'The Night of the Paper Kites';
-  choicesTexts[tempI] = 'To begin, press 1';
+  pageTexts[tempI] = 'PalerTaler';
+  choicesTexts[tempI] = '1 to begin';
   consequences[tempI] = [1];
 
   // page 1
   tempI = 1;
   pageTexts[tempI] =
-    'Would you like to hear the tale of the three moonlit paper kites?';
+    'Paler is at home deciding what to do on the weekend';
   choicesTexts[tempI] =
-    'If so, press [1];\nif not, press [2];\nTo go back, press [b]';
+    '1 to hear the tale of paler\n2 to not hear the tale of paler\npress [b] for back';
   pageImages[tempI] = loadImage('./assets/kite_03.jpg');
-  consequences[tempI] = [4, 2];
+  consequences[tempI] = [2, 3];
 
   // page 2
   tempI = 2;
   pageTexts[tempI] =
-    'Would you prefer the tale of the three quiet lighthouse keepers?';
+    'Paler has two choices';
   choicesTexts[tempI] =
-    'If so, press [1];\nif not, press [2];\nTo go back, press [b]';
+    '1 watch an f1 race\n2 race in an f1 race\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/lighthouse_01.jpg');
-  consequences[tempI] = [16, 3];
+  consequences[tempI] = [4, 5];
 
   // page 3
   tempI = 3;
   pageTexts[tempI] =
-    'Would you rather read the one about the three wandering constellations?';
+    'Please?';
   choicesTexts[tempI] =
-    'If so, press [1];\nif not, press [2];\nTo go back, press [b]';
+    '1 to hear the tale\n2 to not hear the tale\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/kite_02.jpg');
-  consequences[tempI] = [17, 21];
+  consequences[tempI] = [2, 19];
 
   // page 4
   tempI = 4;
   pageTexts[tempI] =
-    'Once, three paper kites slept in a lilac dusk, folded neat upon a windowsill. Their strings coiled like kittens’ tails, their tissue skins shimmering faintly with borrowed moon.';
+    'Paler decides to watch the race, like a loser. does he watch it in his bed, or on his sofa?';
   choicesTexts[tempI] =
-    "If you'd prefer another description, press [1];\nif this one will do, press [2];\nTo go back, press [b]";
+    "1 for bed\n2 for sofa\nTo go back, press [b]";
   pageImages[tempI] = loadImage('./assets/kites_01.jpg');
-  consequences[tempI] = [9, 5];
+  consequences[tempI] = [18, 6];
 
   // page 5
   tempI = 5;
   pageTexts[tempI] =
-    'Their rest was blank and still. The truth is these little travelers seldom dream.';
+    'Paler decides to go racing at the las vegas GP. what team does he race for?';
   choicesTexts[tempI] =
-    "If you'd rather they did dream, press [1];\nif not, press [2];\nTo go back, press [b]";
+    "1 for Red Bull\n2 for Mercedes\nTo go back, press [b]";
   pageImages[tempI] = loadImage('./assets/kite_02.jpg');
-  consequences[tempI] = [6, 7];
+  consequences[tempI] = [7];
 
   // page 6
   tempI = 6;
   pageTexts[tempI] =
-    'They were dreaming, of course. Kites dream always—of thermals, tall coasts, and a sea that hums like a shell held to the heart.';
+    'Paler watches the race on his sofa, and gets inspired to race in the next one ';
   choicesTexts[tempI] =
-    'If you wish to know their dream, press [1];\nif its neither here nor there, press [2];\nTo go back, press [b]';
+    'press 1 to continue\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/stars_01.jpg');
-  consequences[tempI] = [11, 7];
+  consequences[tempI] = [5];
 
   // page 7
   tempI = 7;
   pageTexts[tempI] =
-    'Their tails wore tinkling bells, and each bell wore a ribbon: one sable, one copper, one pale-gold as morning tea.';
+    'Paler is at the start line.';
   choicesTexts[tempI] =
-    "If you'd prefer a different ribbon color, press [1];\nif you’re happy as is, press [2];\nTo go back, press [b]";
+    "1 to start\n2 to stand still\nTo go back, press [b]";
   pageImages[tempI] = loadImage('./assets/stars_02.jpg');
-  consequences[tempI] = [8, 10];
+  consequences[tempI] = [8, 9];
 
   // page 8
   tempI = 8;
   pageTexts[tempI] =
-    'Very well—indigo ribbons then, deep as a harbor at night.';
+    'you are behind 2 cars. coming up to a sharp turn. do you';
   choicesTexts[tempI] =
-    'If you’d like another color again, press [1];\nif indigo suits, press [2];\nTo go back, press [b]';
+    '1 risk it and dive bomb the inside\n2 play it safe and take the outside line\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/kites_02.jpg');
-  consequences[tempI] = [7, 10];
+  consequences[tempI] = [10, 11];
 
   // page 9
   tempI = 9;
   pageTexts[tempI] =
-    'They had silver thread along their seams and a secret stitched beneath: a map of winds no sailor had ever seen.';
+    'someone rear ends you and you die';
   choicesTexts[tempI] =
-    'If you’d prefer fewer embellishments, press [1];\nif you approve the silver thread, press [2];\nTo go back, press [b]';
+    '1 to continue\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/lighthouse_01.jpg');
-  consequences[tempI] = [5, 21];
+  consequences[tempI] = [19];
 
   // page 10
   tempI = 10;
   pageTexts[tempI] =
-    'All three dreamed the same dream; for they adored one another and, old companions they were, their thoughts often braided in the breeze.';
+    'you dive bomb the inside and hit into the side of the Ferrari car. you hit into the wall as you lose control. The car is no longer driveable';
   choicesTexts[tempI] =
-    'If you wish to know their dream, press [1];\nif not, press [2];\nTo go back, press [b]';
+    '1 to continue\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/kites_02.jpg');
-  consequences[tempI] = [11, 12];
+  consequences[tempI] = [19];
 
   // page 11
   tempI = 11;
