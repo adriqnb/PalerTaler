@@ -223,7 +223,8 @@ function displayCurrentPage() {
   } else {
     background(pageImages[currentPageIndex]);
   }
-
+  stroke(0);
+  strokeWeight(3);
   fill(255);
   textSize(windowWidth / 33);
   text(
