@@ -26,18 +26,18 @@ function preload() {
   // page 1
   tempI = 1;
   pageTexts[tempI] =
-    'Paler is at home deciding what to do on the weekend';
+    'Would you like to hear The Tale of Paler?';
   choicesTexts[tempI] =
-    '1 to hear the tale of paler\n2 to not hear the tale of paler';
+    'To hear The Tale of Paler, press [1]\nTo not hear The Tale of Paler, press [2]';
   pageImages[tempI] = loadImage('./assets/photos/Page1.jpg');
   consequences[tempI] = [2, 3];
 
   // page 2
   tempI = 2;
   pageTexts[tempI] =
-    'Paler has two choices';
+    'Paler is at home deciding what to do on the weekend. Paler really loves F1, but he has two choices:';
   choicesTexts[tempI] =
-    '1 watch an f1 race\n2 race in an f1 race\nTo go back, press [b]';
+    'To watch an F1 race, press [1]\nTo race in an F1 race, press [2]\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/photos/Page2.webp');
   consequences[tempI] = [4, 5];
 
@@ -46,34 +46,34 @@ function preload() {
   pageTexts[tempI] =
     'Please?';
   choicesTexts[tempI] =
-    '1 to hear the tale\n2 to not hear the tale';
+    'To hear the tale, press [1]\nTo not hear the tale, press [2]';
   pageImages[tempI] = loadImage('./assets/photos/Page3.webp');
   consequences[tempI] = [2, 19];
 
   // page 4
   tempI = 4;
   pageTexts[tempI] =
-    'Paler decides to watch the race, like a loser. does he watch it in his bed, or on his sofa?';
+    'Paler decides to watch the race, like a loser. Does he watch it in his bed, or on his sofa?';
   choicesTexts[tempI] =
-    "1 for bed\n2 for sofa\nTo go back, press [b]";
+    "To watch in bed, press [1]\nTo watch on the sofa, press [2]\nTo go back, press [b]";
   pageImages[tempI] = loadImage('./assets/photos/Page4.jpg');
   consequences[tempI] = [18, 6];
 
   // page 5
   tempI = 5;
   pageTexts[tempI] =
-    'Paler decides to go racing at the las vegas GP. what team does he race for?';
+    'Paler decides to go racing at the Las Vegas GP. What team does he race for?';
   choicesTexts[tempI] =
-    "1 for Red Bull\n2 for Mercedes\nTo go back, press [b]";
+    "For Red Bull, press [1]\nFor Mercedes, press [2]\nTo go back, press [b]";
   pageImages[tempI] = loadImage('./assets/photos/Page5.avif');
   consequences[tempI] = [7,7];
 
   // page 6
   tempI = 6;
   pageTexts[tempI] =
-    'Paler watches the race on his sofa, and gets inspired to race in the next one ';
+    'Paler watches the race on his sofa, and gets inspired to race in the next one.';
   choicesTexts[tempI] =
-    'press 1 to continue\nTo go back, press [b]';
+    'To continue, press [1]\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/photos/Page6.jpg');
   consequences[tempI] = [5];
 
@@ -82,70 +82,70 @@ function preload() {
   pageTexts[tempI] =
     'Paler is at the start line.';
   choicesTexts[tempI] =
-    "1 to start\n2 to stand still\nTo go back, press [b]";
+    "To start, press [1]\nTo stand still, press [2]\nTo go back, press [b]";
   pageImages[tempI] = loadImage('./assets/photos/Page7.jpg');
   consequences[tempI] = [8, 9];
 
   // page 8
   tempI = 8;
   pageTexts[tempI] =
-    'you are behind 2 cars. coming up to a sharp turn. do you';
+    'Paler is behind 2 cars, coming up to a sharp turn. Does he:';
   choicesTexts[tempI] =
-    '1 risk it and dive bomb the inside\n2 play it safe and take the outside line\nTo go back, press [b]';
+    'To risk it and dive bomb the inside, press [1]\nTo play it safe and take the outside line, press [2]\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/photos/Page8.webp');
   consequences[tempI] = [10, 11];
 
   // page 9
   tempI = 9;
   pageTexts[tempI] =
-    'someone rear ends you and you die';
+    'Someone rear ends Paler and he dies.';
   choicesTexts[tempI] =
-    '1 to continue\nTo go back, press [b]';
+    'To continue, press [1]\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/photos/Page9.webp');
   consequences[tempI] = [19];
 
   // page 10
   tempI = 10;
   pageTexts[tempI] =
-    'you dive bomb the inside and hit into the side of the Ferrari car. you hit into the wall as you lose control. The car is no longer driveable';
+    'Paler dive bombs the inside and hits into the side of the Ferrari car. He hits into the wall as he loses control. The car is no longer driveable.';
   choicesTexts[tempI] =
-    '1 to continue\nTo go back, press [b]';
+    'To continue, press [1]\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/photos/Page10.jpg');
   consequences[tempI] = [19];
 
   // page 11
   tempI = 11;
   pageTexts[tempI] =
-    'you take the outside line, and the cars on the inside crash into each other as you make it through, you are now in P7';
+    'Paler takes the outside line, and the cars on the inside crash into each other as Paler makes it through. He is now in P7.';
   choicesTexts[tempI] =
-    '1 to continue\nTo go back, press [b]';
+    'To continue, press [1]\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/photos/Page11.jpg');
   consequences[tempI] = [12];
 
   // page 12
   tempI = 12;
   pageTexts[tempI] =
-    "it is now lap 50/71. you are in P6, you are approaching the McLaren duo,";
+    "It is now lap 50/71. Paler is in P6, Paler is approaching the McLaren Duo.";
   choicesTexts[tempI] =
-    '1 to let them battle\n2 to try an overtake\nTo go back, press [b]';
+    'To let them battle, press [1]\nTo try an overtake, press [2]\nTo go back, press [b]';
    pageImages[tempI] = loadImage('./assets/photos/Page12.jpg');
    consequences[tempI] = [13, 14];
 
   // page 13
   tempI = 13;
   pageTexts[tempI] =
-    "you spot an opportunity to sneak through the pair and take it. you are now in P4 and are now approaching the leaders";
+    "Paler spots an opportunity to sneak through the pair and take it. Paler is now in P4 and is now approaching the leaders.";
   choicesTexts[tempI] =
-    '1 to continue\nTo go back, press [b]';
+    'To continue, press [1]\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/photos/Page13.jpg');
   consequences[tempI] = [15];
 
   // page 14
   tempI = 14;
   pageTexts[tempI] =
-    "You fail the overtake and in the process, your tires are too worn to attempt another overtake. The race ends with you in P5.";
+    "Paler fails the overtake and in the process, his tires are too worn to attempt another overtake. The race ends with Paler in P5.";
   choicesTexts[tempI] =
-    '1 to continue\nTo go back, press [b]';
+    'To continue, press [1]\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/photos/Page14.webp');
 
   consequences[tempI] = [19];
@@ -153,7 +153,7 @@ function preload() {
   // page 15
   tempI = 15;
   pageTexts[tempI] =
-    "You have overtaken P2 and P3, and are now in P2 with 3 laps to go. You are coming up on the leader, Joe Dovi.";
+    "Paler has overtaken P2 and P3, and now is in P2 with 3 laps to go. He is coming up on the leader, Joe Dovi.";
   choicesTexts[tempI] =
     'To overtake aggressively, press [1];\nTo wait for him to make a mistake, press [2];\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/photos/Page15.avif');
@@ -162,7 +162,7 @@ function preload() {
   // page 16
   tempI = 16;
   pageTexts[tempI] =
-    'Joe Dovi spins out and slams into a wall, bringing you into P1 and winning the race.';
+    'Joe Dovi spins out and slams into a wall, bringing Paler into P1 and winning the race.';
   choicesTexts[tempI] =
     'To continue, press [1]\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/photos/Page16.jpg');
@@ -171,7 +171,7 @@ function preload() {
   // page 17
   tempI = 17;
   pageTexts[tempI] =
-    'You try to overtake aggressively, and break your front wing. This makes it impossible to overtake again. The race ends with you in P2.';
+    'Paler tries to overtake aggressively, and breaks his front wing. This makes it impossible to overtake again. The race ends with Paler in P2.';
   choicesTexts[tempI] =
     'To continue, press [1]\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/photos/Page17.jpg');
@@ -189,7 +189,7 @@ function preload() {
   // page 19
   tempI = 19;
   pageTexts[tempI] =
-    'The end.';
+    'The End.';
   choicesTexts[tempI] =
     'To restart, press [1]\nTo go back, press [b]';
   consequences[tempI] = [0];
