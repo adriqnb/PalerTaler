@@ -63,6 +63,7 @@ function preload() {
   tempI = 5;
   pageTexts[tempI] =
     'Paler decides to go racing at the las vegas GP. what team does he race for?';
+    'Paler decides to go racing at the las vegas GP. what team does he race for?';
   choicesTexts[tempI] =
     "1 for Red Bull\n2 for Mercedes\nTo go back, press [b]";
   pageImages[tempI] = loadImage('./assets/photos/Page5.avif');
@@ -116,39 +117,39 @@ function preload() {
   // page 11
   tempI = 11;
   pageTexts[tempI] =
-    'They dreamed they rose for a night-flight and found the sky fenced with wires. Each star was locked behind a grid. Startled, they woke with a paper rustle.';
+    'you take the outside line, and the cars on the inside crash into each other as you make it through, you are now in P7';
   choicesTexts[tempI] =
-    'If you wish to know why wires frightened them, ponder what wind desires; then, if it’s all the same, press [1];\nTo go back, press [b]';
+    '1 to continue\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/photos/Page11.jpg');
   consequences[tempI] = [12];
 
   // page 12
   tempI = 12;
   pageTexts[tempI] =
-    "'Hush-a-skirl!' they whispered as their sticks straightened. 'What a sour dream we’ve flown through!' 'A bad omen,' said the first. 'A bind,' said the second. 'A clue,' said the third—cleverest of the trio. 'Let me explain...'";
+    "it is now lap 50/71. you are in P6, you are approaching the McLaren duo,";
   choicesTexts[tempI] =
-    'If you can’t wait for the third kite’s analysis, press [1];\nif you’d rather hear the others’ reaction, press [2];\nTo go back, press [b]';
+    '1 to let them battle\n2 to try an overtake\nTo go back, press [b]';
    pageImages[tempI] = loadImage('./assets/photos/Page12.jpg');
-   consequences[tempI] = [15, 13];
+   consequences[tempI] = [13, 14];
 
   // page 13
   tempI = 13;
   pageTexts[tempI] =
-    "'Since when do you lecture on dreams?' quivered the first. 'Yes—since when?' chimed the second, their bells politely cross.";
+    "you spot an opportunity to sneak through the pair and take it. you are now in P4 and are now approaching the leaders";
   choicesTexts[tempI] =
-    'If you too wish to know since when, press [1];\nif not, press [1] anyway—mystery loves company;\nTo go back, press [b]';
+    '1 to continue\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/photos/Page13.jpg');
-  consequences[tempI] = [14];
+  consequences[tempI] = [15];
 
   // page 14
   tempI = 14;
   pageTexts[tempI] =
-    "'Since when?' sang the third. 'Who can say? I only know the wind speaks and I translate. Watch.'";
+    "You fail the overtake and in the process, your tires are too worn to attempt another overtake. The race ends with you in P5.";
   choicesTexts[tempI] =
-    'If you wish to watch, press [1];\nif not, press [1] regardless—eyes open better in motion;\nTo go back, press [b]';
+    '1 to continue\nTo go back, press [b]';
   pageImages[tempI] = loadImage('./assets/photos/Page14.webp');
 
-  consequences[tempI] = [15];
+  consequences[tempI] = [19];
 
   // page 15
   tempI = 15;
