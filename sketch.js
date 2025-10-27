@@ -67,7 +67,7 @@ function preload() {
   choicesTexts[tempI] =
     "1 for Red Bull\n2 for Mercedes\nTo go back, press [b]";
   pageImages[tempI] = loadImage('./assets/photos/Page5.avif');
-  consequences[tempI] = [7];
+  consequences[tempI] = [7,7];
 
   // page 6
   tempI = 6;
