@@ -15,12 +15,12 @@ let previousPageIndex = 0;
 
 function preload() {
   // ********************
-  // "The Night of the Paper Kites"
+  // "The Tale of Paler"
   // ********************
 
   let tempI = 0;
-  pageTexts[tempI] = 'The Night of the Paper Kites';
-  choicesTexts[tempI] = 'To begin, press 1';
+  pageTexts[tempI] = 'The Tale of Paler';
+  choicesTexts[tempI] = 'To begin, press [1]';
   consequences[tempI] = [1];
 
   // page 1
@@ -149,57 +149,45 @@ function preload() {
   // page 15
   tempI = 15;
   pageTexts[tempI] =
-    "'But why stir old gusts?' murmured the second. 'Your fright is fading already.' 'Agreed,' nodded the first. 'Let’s greet the briny light instead.' And so, slipping from the sill, they drifted down the lane to the quay’s washbasin of dawn.";
+    "You have overtaken P2 and P3, and are now in P2 with 3 laps to go. You are coming up on the leader, Joe Dovi.";
   choicesTexts[tempI] =
-    'If you wish to see what happens at the quay, press [1];\nif not, press [2];\nTo go back, press [b]';
-  consequences[tempI] = [16, 21];
+    'To overtake aggressively, press [1];\nTo wait for him to make a mistake, press [2];\nTo go back, press [b]';
+  consequences[tempI] = [17, 16];
 
   // page 16
   tempI = 16;
   pageTexts[tempI] =
-    'Three quiet lighthouse keepers watched them from the breakwater.';
+    'Joe Dovi spins out and slams into a wall, bringing you into P1 and winning the race.';
   choicesTexts[tempI] =
-    'If you don’t care for the keepers, press [1];\nif you rather like them, press [2];\nTo go back, press [b]';
-  pageImages[tempI] = loadImage('./assets/lighthouse_02.jpg');
-  consequences[tempI] = [21, 18];
+    'To continue, press [1]\nTo go back, press [b]';
+  //pageImages[tempI] = loadImage('./assets/lighthouse_02.jpg');
+  consequences[tempI] = [19];
 
   // page 17
   tempI = 17;
   pageTexts[tempI] =
-    'Three wandering constellations tilted their heads and watched as well.';
+    'You try to overtake aggressively, and break your front wing. This makes it impossible to overtake again. The race ends with you in P2.';
   choicesTexts[tempI] =
-    'If you dislike being watched by stars, press [1];otherwise, it charms you, press [2];\nTo go back, press [b]';
-  pageImages[tempI] = loadImage('./assets/stars_01.jpg');
-  consequences[tempI] = [21, 18];
+    'To continue, press [1]\nTo go back, press [b]';
+  //pageImages[tempI] = loadImage('./assets/stars_01.jpg');
+  consequences[tempI] = [19];
 
   // page 18
   tempI = 18;
   pageTexts[tempI] =
-    'Noticing the gaze upon them, the bashful kites wheeled shyly and made for the alley’s gentle wind.';
+    'Paler watches the race in his bed, and falls asleep.';
   choicesTexts[tempI] =
-    'If you wish to know what they did next, press [1];\nif it’s immaterial, press [2];\nTo go back, press [b]';
-  consequences[tempI] = [19, 21];
+    'To continue, press [1]\nTo go back, press [b]';
+  consequences[tempI] = [19];
 
   // page 19
   tempI = 19;
   pageTexts[tempI] =
-    'They slipped back through the window, wrapped their strings like scarves, and folded themselves to sleep once more.';
+    'The end.';
   choicesTexts[tempI] =
-    'If you wish to know the sequel, press [1];\nif not, press [2];\nTo go back, press [b]';
-  pageImages[tempI] = loadImage('./assets/kite_01.jpg');
-  consequences[tempI] = [20, 21];
-
-  // page 20
-  tempI = 20;
-  pageTexts[tempI] = 'There is no sequel. The night is finished. Finished!';
-  choicesTexts[tempI] = 'To go back to the start, press [1]';
-  consequences[tempI] = [1];
-
-  // page 21
-  tempI = 21;
-  pageTexts[tempI] = 'In this case too, the tale is finished. Ended!';
-  choicesTexts[tempI] = 'To return to the start, press [1]';
-  consequences[tempI] = [1];
+    'To restart, press [1]\nTo go back, press [b]';
+  //pageImages[tempI] = loadImage('./assets/kite_01.jpg');
+  consequences[tempI] = [0];
 }
 
 function setup() {
