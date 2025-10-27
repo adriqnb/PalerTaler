@@ -28,7 +28,7 @@ function preload() {
   pageTexts[tempI] =
     'Paler is at home deciding what to do on the weekend';
   choicesTexts[tempI] =
-    '1 to hear the tale of paler\n2 to not hear the tale of paler\npress [b] for back';
+    '1 to hear the tale of paler\n2 to not hear the tale of paler';
   pageImages[tempI] = loadImage('./assets/photos/Page1.jpg');
   consequences[tempI] = [2, 3];
 
@@ -46,7 +46,7 @@ function preload() {
   pageTexts[tempI] =
     'Please?';
   choicesTexts[tempI] =
-    '1 to hear the tale\n2 to not hear the tale\nTo go back, press [b]';
+    '1 to hear the tale\n2 to not hear the tale';
   pageImages[tempI] = loadImage('./assets/photos/Page3.webp');
   consequences[tempI] = [2, 19];
 
@@ -62,7 +62,6 @@ function preload() {
   // page 5
   tempI = 5;
   pageTexts[tempI] =
-    'Paler decides to go racing at the las vegas GP. what team does he race for?';
     'Paler decides to go racing at the las vegas GP. what team does he race for?';
   choicesTexts[tempI] =
     "1 for Red Bull\n2 for Mercedes\nTo go back, press [b]";
